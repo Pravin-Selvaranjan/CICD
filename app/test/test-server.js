@@ -44,7 +44,7 @@ describe('Fibonacci', function() {
         console.log(res);
         console.log(res.text);
         res.should.have.status(200);
-        res.text.should.contain('55');
+        res.text.should.contain('789456');
         done();
       });
   });
