@@ -41,10 +41,8 @@ describe('Fibonacci', function() {
     chai.request(server)
       .get('/fibonacci/10')
       .end(function(err, res){
-        console.log(res);
-        console.log(res.text);
         res.should.have.status(200);
-        res.text.should.contain('789456');
+        res.text.should.contain('55');
         done();
       });
   });
