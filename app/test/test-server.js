@@ -42,7 +42,7 @@ describe('Fibonacci', function() {
       .get('/fibonacci/10')
       .end(function(err, res){
         res.should.have.status(200);
-        res.text.should.contain('55');
+        res.text.should.contain('10');
         done();
       });
   });
