@@ -1,5 +1,9 @@
 # CICD Pipelines (Continuous intergration (CI), Continuous Delivery/Deployment(CD))
 
+![Blank diagram (11)](https://user-images.githubusercontent.com/110179866/187892850-000e3959-9eb7-486b-9032-b05e0f3e4990.jpeg)
+
+
+
 A CI/CD pipeline automates your software delivery process. The pipeline builds code, runs tests (CI), and safely deploys a new version of the application (CD).
 
 Automated pipelines remove manual errors, provide standardized feedback loops to developers, and enable fast product iterations.
