@@ -50,6 +50,7 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 
 # reverse proxy 
+ sudo cp -f home/ubuntu/scripts/rev_prox_file /etc/nginx/sites-available/default
 
 
 # Install dependencies
