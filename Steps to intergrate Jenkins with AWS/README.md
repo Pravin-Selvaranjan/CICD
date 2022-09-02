@@ -8,3 +8,5 @@
 - 4th job on Jenkins launch the app only be triggered if the 3rd job was successful 
 - pm2 kill all - create a 5th job to create DB_HOST=db-ip
 - npm start
+
+hello test 
