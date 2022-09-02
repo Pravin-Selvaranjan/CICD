@@ -50,7 +50,7 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 
 # reverse proxy 
-sudo cp /home/ubuntu/scripts/rev_prox_file /etc/nginx/sites-available/default
+
 
 # Install dependencies
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
